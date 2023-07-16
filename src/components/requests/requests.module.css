@@ -1,0 +1,43 @@
+.header{
+    width:85%;
+    height:115px;
+}
+.content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 85%;
+    background-color: white;
+}
+.datetime{
+    width:500px;
+    height:50px;
+    float: left;
+}
+.request{
+    width:80%;
+    margin: 20px auto;
+    border:solid 1px gray;
+    text-align: center;
+}
+.request label{
+    display: block;
+    margin:10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+.request input{
+    width:30%;
+    height:30px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgb(205, 250, 215);
+    margin-right: 10px;
+}
+
+.request textarea{
+    width: 30%;
+    height: 50px;
+    border:transparent;
+    border-radius: 10px;
+    background-color: rgb(205, 250, 215);
+}

@@ -1,0 +1,11 @@
+.btn1{
+background-color: rgba(0,123,255,1);
+width: 260px;
+height:48px;
+border:transparent;
+border-radius: 8px;
+font-size: 15px;
+font-weight:bold;
+color:rgba(255,255,255,1);
+cursor: pointer;
+}

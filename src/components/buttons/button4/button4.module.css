@@ -1,0 +1,10 @@
+.btn4{
+    width: 185px;
+    height:48px;
+    background-color: lightgray;
+    color: red;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}

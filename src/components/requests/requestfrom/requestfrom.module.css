@@ -1,0 +1,28 @@
+.request{
+    width:80%;
+    margin: 20px auto;
+    border:solid 1px gray;
+    text-align: center;
+}
+.request label{
+    display: block;
+    margin:10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+.request input{
+    width:40%;
+    height:30px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgb(205, 250, 215);
+    margin-right: 10px;
+}
+
+.request textarea{
+    width: 40%;
+    height: 50px;
+    border:transparent;
+    border-radius: 10px;
+    background-color: rgb(205, 250, 215);
+}

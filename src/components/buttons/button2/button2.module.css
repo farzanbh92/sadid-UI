@@ -1,0 +1,11 @@
+.btn{
+    border:solid 2px rgba(2, 65, 199,1) ;
+    border-radius: 8px;
+    width:260px;
+    height: 48px;
+    color:rgb(2, 65, 199);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight:bold;
+    cursor: pointer;
+}

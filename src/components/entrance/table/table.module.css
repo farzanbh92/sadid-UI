@@ -1,0 +1,12 @@
+.table{
+    width:80%;
+    float: left;
+    margin-left: 22.5%;
+}
+
+.table input{
+    height:50px;
+    width: 80%;
+    border: transparent;
+    border-radius: 15px;
+}

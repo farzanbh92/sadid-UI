@@ -1,0 +1,10 @@
+.btn3{
+    width: 185px;
+    height:48px;
+    background-color: lightgray;
+    color: green;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.header{
+    width:85%;
+    height:115px;
+}
+.content{
+    padding-top: 10px;
+    width: 85%;
+    height:800px;
+    background-color: white;
+}
+.datetime{
+    width:500px;
+    height:50px;
+    float: left;
+}
