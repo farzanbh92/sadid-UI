@@ -20,7 +20,8 @@ axiosInstance.interceptors.response.use(
     (error) => {
         // const originalRequest = error.config;
 
-        if (error.response.status === 401 ) {
+        console.info(error)
+        if (error.response.status === 401 || error.response.status === 404 ) {
             localStorage.clear();
             window.location.reload();
         }

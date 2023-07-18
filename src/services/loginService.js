@@ -1,5 +1,5 @@
 import axios from "axios"
-import { mainURL } from "./utility";
+import { axiosInstance, mainURL } from "./utility";
 
 export const loginMobile = async (userCredential) => {
     try {
@@ -31,14 +31,9 @@ export const verifyCode = async (userCredential) => {
 
 export const account = async () => {
     try {
-        const data = await axios.get(`${mainURL}/api/Auth`, {
-            headers: {
-                Authorization: `Bearer ${localStorage.getItem('token')}`
-            }
-        });
-        localStorage.setItem("access_token", data.access);
-        localStorage.setItem("refresh_token", data.refresh);
-        return data;
+        const data = await axiosInstance.get(`${mainURL}/api/Auth`);
+
+        return { data };
     }
     catch (error) {
         return { error }

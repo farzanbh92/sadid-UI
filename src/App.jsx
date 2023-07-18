@@ -16,11 +16,18 @@ function App() {
   const login = useSelector(selectLogin);
   const dispatch = useDispatch();
 
+  const handler = async () => {
+    const { data, error } = await account()
+    if (data)
+      dispatch(setLogin(true))
+    else
+      dispatch(setLogin(false))
+  }
   useEffect(() => {
 
-    account().then(x => {
-      dispatch(setLogin(true))
-    })
+    if (localStorage.getItem('token') === null)
+      handler()
+
     return () => {
 
     }
