@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "IRANSans";
+    src: url("./fonts/IRANSans.ttf");
+    src: url("./iransans/eot/IRANSansWeb\(FaNum\).eot") format("embedded-opentype"),
+        url("./iransans/woff/IRANSansWeb\(FaNum\).woff") format("woff"),
+        url("./iransans/ttf/IRANSansWeb\(FaNum\).ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "IRANSans";
+    src: url("./fonts/IRANSans.eot");
+    src: url("./fonts/IRANSans.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/IRANSans.woff") format("woff"), url("./fonts/IRANSans.ttf") format("truetype"),
+        url("./fonts/IRANSans.svg#MinionPro-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+}
+
+@font-face {
+    font-family: "IRANSans_Bold";
+    src: url("./fonts/IRANSans_Bold.eot");
+    src: url("./fonts/IRANSans_Bold.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/IRANSans_Bold.woff") format("woff"),
+        url("./fonts/IRANSans_Bold.ttf") format("truetype"),
+        url("./fonts/IRANSans_Bold.svg#IRANSans_Bold") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "IRANSans_Medium";
+    src: url("./fonts/IRANSans_Medium.eot");
+    src: url("./fonts/IRANSans_Medium.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/IRANSans_Medium.woff") format("woff"),
+        url("./fonts/IRANSans_Medium.ttf") format("truetype"),
+        url("./fonts/IRANSans_Medium.svg#IRANSans_Medium") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "IRANSansMobile(FaNum)";
+    src: url("./fonts/IRANSansMobile(FaNum).eot");
+    src: url("./fonts/IRANSansMobile(FaNum).eot?#iefix") format("embedded-opentype"),
+        url("./fonts/IRANSansMobile(FaNum).woff") format("woff"),
+        url("./fonts/IRANSansMobile(FaNum).ttf") format("truetype"),
+        url("./fonts/IRANSansMobile(FaNum).svg#IRANSansMobile(FaNum)") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+30-39;
+}

@@ -1,0 +1,8 @@
+$width: 100vw / 1920px;
+
+@function rem($px) {
+    //@return #{$px / 16}em;
+    @return #{$px}px;
+}
+
+/* Top Navigation End */
